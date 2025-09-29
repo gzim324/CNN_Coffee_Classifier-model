@@ -10,11 +10,11 @@ The repository consists of three parts of experiments:
 
 ## Dataset  
 
-Download the dataset from [https://example.com/dataset](https://example.com/dataset) and place it into the following directories:  
+Download the dataset from [https://bazawiedzy.upwr.edu.pl/info/researchdata/UPWRf292f42169a4492f8a99ea7a74e96914/](https://bazawiedzy.upwr.edu.pl/info/researchdata/UPWRf292f42169a4492f8a99ea7a74e96914/) and place it into the following directories:  
 
-- `custom_training/data`  
-- `experiments/data`  
-- `cv10_experiments/data-ar`  
+- `custom_training/data`
+- `experiments/data`
+- `cv10_experiments/data-ar`
 
 ---
 

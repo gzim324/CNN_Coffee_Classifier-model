@@ -37,7 +37,9 @@ filepaths = []
 labels = []
 
 for cls in CLASS_DIRS:
-    paths = glob.glob(os.path.join(DATA_DIR, cls, "*.jpg"))
+    paths = []
+    for ext in ("*.jpg", "*.jpeg", "*.png", "*.JPG", "*.JPEG", "*.PNG"):
+        paths.extend(glob.glob(os.path.join(DATA_DIR, cls, ext)))
     filepaths.extend(paths)
     labels.extend([CLASS_TO_IDX[cls]] * len(paths))
 
